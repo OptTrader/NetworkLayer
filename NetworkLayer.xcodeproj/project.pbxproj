@@ -19,6 +19,7 @@
 		7ABBF4502076E62D0051ECB4 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBF44F2076E62D0051ECB4 /* ParameterEncoding.swift */; };
 		7ABBF4532076E8EE0051ECB4 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBF4522076E8EE0051ECB4 /* URLParameterEncoder.swift */; };
 		7ABBF4552076EAFF0051ECB4 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBF4542076EAFF0051ECB4 /* JSONParameterEncoder.swift */; };
+		7ABBF4572076ED1B0051ECB4 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBF4562076ED1B0051ECB4 /* NetworkRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7ABBF44F2076E62D0051ECB4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		7ABBF4522076E8EE0051ECB4 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		7ABBF4542076EAFF0051ECB4 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		7ABBF4562076ED1B0051ECB4 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				7ABBF4482076E4480051ECB4 /* EndPointType.swift */,
 				7ABBF44A2076E4920051ECB4 /* HTTPMethod.swift */,
 				7ABBF44C2076E50B0051ECB4 /* HTTPTask.swift */,
+				7ABBF4562076ED1B0051ECB4 /* NetworkRouter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				7ABBF4532076E8EE0051ECB4 /* URLParameterEncoder.swift in Sources */,
 				7ABBF4292076DF7E0051ECB4 /* AppDelegate.swift in Sources */,
 				7ABBF4492076E4480051ECB4 /* EndPointType.swift in Sources */,
+				7ABBF4572076ED1B0051ECB4 /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
